@@ -1,0 +1,83 @@
+
+
+.main{
+  position: absolute;
+  height: 98vh;
+  width: 98vw;
+  background-repeat: no-repeat;
+  background-image: url(/imagem/fundo.webp);
+  background-size: cover;
+  background-position: center center;
+}
+
+.container{
+  position: relative;
+  justify-content: center;
+  align-self: center;
+  border: 1px grey solid;
+  display: block;
+  border-radius: 20px;
+  background-color: #1ABBB9;
+  margin: 20px auto; /*margin auto com display block funciona para alinha no centro*/
+  margin-top: 200px;
+  max-width: 400px;
+  width: 100%;
+  height: 520px;
+}
+
+.form{
+  text-align: center;
+  padding: 20px;
+}
+
+.form img{
+  max-width: 300px;
+  width: 100%;
+}
+
+.form input[type=password],
+.form input[type=email]{
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  display: block;
+  margin: 10px auto;
+  max-width: 500px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid gray;
+}
+
+.form textarea{
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  resize: none;
+  height: 120px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.form input[type=submit]{
+  color: black;
+  border-radius: 20px;
+  display: block;
+  margin: 10px auto;
+  max-width: 500px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.criarConta{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  border-top: 1.5px solid rgb(255, 255, 255);
+  padding-top: 10px;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
